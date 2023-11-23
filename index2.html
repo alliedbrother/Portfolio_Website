@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style2.css"/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sai Akhil Kogilathota</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sai Akhil Kogilathota</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="profile">
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Akhil profile pic"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sai Akhil Kogilathota</h1>
+            <p class="section__text__p2">Data Scientist | ML Engineer | Data Analyst | Business Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/my-resume.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='#contact'">Contact Info</button>
+                </div>
+            </div>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/alliedbrother/" target="_blank"></a>
+                        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon">
+
+                    <a href="https://github.com/alliedbrother" target="_blank"></a>
+                        <img src="./assets/github.png" alt="My GitHub profile" class="icon">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section  id="about">
+        <div class="container">
+          <h1 class="title">About Me</h1>
+          <div class="experience-section">
+            <img style="display:block;margin-left: auto; margin-right:auto; align-items: center;" src="./assets/experience.png" alt="Experience icon" class="icon"/>
+            <h2 style="text-align: center;font-size: 40px;">Experience</h2>
+            
+            <div class="job">
+              <div class="job-details">
+                <p class="comp_bold">
+                    <span>Lendingkart, Bangalore, India</span>
+                    <span>Jan-2023 to Aug-2023</span>
+                </p>
+                <p>Data Scientist</p>
+                <p>
+                <ul style="margin-left:50px;">
+                    <li>Analyzed various customer segments based on loan amount, interest rates, state, city, industry, and credit scores to determine
+                    the most active borrowers.</li>
+                    <li>Conducted in-depth segmentation of customers based on various criteria, leading to the identification of a key borrower
+                    segment that showed a 20% higher loan uptake compared to other groups.</li>
+                    <li>Provided data-driven insights to the Digital Marketing team, which led to a 25% increase in the effectiveness of targeted
+                    marketing campaigns and a 30% increase in conversion rates from marketing leads.</li>
+                    <li>Developed a framework for personalized discounts on interest rates and fees, enhancing user engagement on the mobile app by
+                    40% and increasing loan application completion rates by 35%.</li>
+                    <li>Successfully collaborated with the front-end team on the discount gamification feature, resulting in a 50% increase in user
+                    interaction with the feature and a 20% improvement in customer satisfaction scores.</li>
+                  </ul>
+              </div>
+             </p>
+            </div>
+            <div class="job">
+              <div class="job-details">
+                <p class="comp_bold">
+                    <span>Comviva Technologies, Bangalore</span>
+                    <span>Aug-2020 to Dec-2023</span>
+                </p>
+                <p>Data Scientist</p>
+              <p>
+                <ul style="margin-left:50px;">
+                    <li>Developed a range of advanced predictive models using cutting-edge algorithms like XGBoost, Random Forest, K-Means
+                    Clustering, GLM, and LiteGBM. These models effectively boosted revenue and enhanced customer retention.</li>
+                    <li>Implemented specialized models for nuanced customer behavior analysis. This includes a Mobile Number Portability Model that
+                    balanced precision and recall for profitability, a Favourite Denomination Model to predict preferred recharge amounts, and a
+                    Multi-Simmer Model that successfully converted secondary users into primary ones.</li>
+                    <li>Built International User Model that predicted international transaction customers with 75% accuracy, reducing network costs by
+                    20% and increasing international revenue by 30% and Recency Frequency Monetary Model that significantly improved customer
+                    segmentation accuracy by 50%, fueling the effectiveness of targeted marketing campaigns by 40% and driving substantial
+                    revenue growth.</li>
+                    <li>Contributed significantly to the creation of the UCG-UTG Base, which is crucial for accurate revenue tracking and model
+                    evaluation. This involved comparing weighted KPIs of control and target groups.</li>
+                    <li>Automated various aspects of reporting and operational processes. This included automating reporting queries, model
+                    performance metrics, and the scheduling of models, which led to a dramatic 98% reduction in operational time and significantly
+                    increased team efficiency.</li>
+                    <li>Created 40 QlikSense dashboards for monitoring production models. These dashboards provided stakeholders with real-time
+                    insights into model performance based on key metrics.</li>
+                    <li>Designed and implemented a new database schema, resulting in a 25% reduction in data storage requirements, 40% faster data
+                    retrieval, 30% improved data analysis efficiency, and supporting a 50% increase in the number of efficiently managed projects
+                    and initiatives.</li>
+                </ul>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section  id="about">
+        <div class="container">
+          <h1 class="title"></h1>
+          <div class="experience-section">
+            <img style="display:block;margin-left: auto; margin-right:auto; align-items: center;" src="./assets/education.png" alt="Education icon" class="icon"/>
+            <h2 style="text-align: center;font-size: 40px;">Education</h2>
+            
+            <div class="job">
+              <div class="job-details">
+                <p class="comp_bold">
+                    <span>Stony Brook University, New York, USA</span>
+                    <span>Aug-2023 to Dec-2024</span>
+                </p>
+              </div>
+             </p>
+            </div>
+            <div class="job">
+              <div class="job-details">
+                <p class="comp_bold">
+                    <span>Ramiah Institute of Technoloy, Karataka, India</span>
+                    <span>Aug-2016 to July-2020</span>
+                </p>
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="experience">
+        <p class="section__text__p1">     </p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Libraries</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>React Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>SpringBoot</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                
+                
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Databases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" 
+                    alt="project 1" 
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">E-Commerce Application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/kaishwarya2000/e-commerce-application/tree/master'"
+                    >
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaishwarya2000/e-commerce-application/tree/master'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Twitter Clone Application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaishwarya2000/Twitter-Clone'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaishwarya2000/Twitter-Clone'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" alt="project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Hotel Booking Portal</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/iamneo-production/fc94e6ed-4491-4690-8c31-d1ca40dd35f6/tree/Project-Workspace-kaishwarya2000'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/iamneo-production/fc94e6ed-4491-4690-8c31-d1ca40dd35f6/tree/Project-Workspace-kaishwarya2000'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+           <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" 
+            class="icon contact-icon emai-icon" 
+            />
+            <p><a href="mailto:saiakhilsbu@gmail.com">
+                Mail At</a>
+            </p>
+           </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" 
+            alt="linkedin icon" 
+            class="icon contact-icon" 
+            />
+            <p><a href="https://www.linkedin.com/in/alliedbrother/">
+                    LinkedIn</a>
+            </p>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Kogilathota Aiswarya. All Rights Reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>

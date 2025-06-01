@@ -54,7 +54,7 @@ const MainHeroSection = () => {
           </motion.a>
 
           <motion.a
-            href="https://twitter.com/saiakhil0034"
+            href="https://x.com/CaptainSai1998"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group p-2"
